@@ -9,7 +9,10 @@
     <body>
         <h1>Discover places hidden in the world around you</h1>
         <h6><a>Download Excursion (Coming soon!)</a></h6>
-        <p><video src = "resources/media/excursion.mp4" autoplay></video></p>
+        <video autoplay muted loop>
+            <source src="resources/media/excursion.mp4" type="video/mp4">
+            Sorry, your browser does not support this video.
+        </video>
         <h2>Your personal travel guide</h2>
         <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
         <p><img src="resources/media/camp.jpeg"></p>
@@ -19,6 +22,6 @@
     </body>
 
     <footer>
-        <p>© Excursion</p>
+        <p id="copyright">© Excursion</p>
     </footer>
 </html>
